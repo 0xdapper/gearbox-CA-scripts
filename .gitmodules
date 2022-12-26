@@ -2,3 +2,7 @@
 	path = lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
 	branch = v1.2.0
+[submodule "lib/core-v2"]
+	path = lib/core-v2
+	url = https://github.com/gearbox-protocol/core-v2
+	branch = v1.7.1
