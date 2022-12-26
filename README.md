@@ -23,6 +23,7 @@ contract InteractionScript is Script {
             abi.encodeWithSelector(Adapter.method.selector, ...) // encoding calldata
         });
 
+        vm.broadcast();
         facade.multicall(multicalls);
     }
 }
