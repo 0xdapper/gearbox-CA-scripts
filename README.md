@@ -1,4 +1,4 @@
-# gearbox-scripts
+# gearbox-CA-scripts
 
 Some scripted interactions I have used for my credit account.
 Demonstrates how one can use forge scripting to script the credit account multicalls.
