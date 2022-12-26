@@ -2,6 +2,7 @@
 
 Some scripted interactions I have used for my credit account.
 Demonstrates how one can use forge scripting to script the credit account multicalls.
+Fork this repo and get started with everything setup for writing gearbox scripts.
 
 ## Install
 

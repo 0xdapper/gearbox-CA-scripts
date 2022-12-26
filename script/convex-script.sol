@@ -11,7 +11,7 @@ import {IERC20Metadata} from "core-v2/interfaces/IPhantomERC20.sol";
 
 import {ConvexV1BaseRewardPoolAdapter} from "integrations-v2/contracts/adapters/convex/ConvexV1_BaseRewardPool.sol";
 import {ConvexV1BoosterAdapter} from "integrations-v2/contracts/adapters/convex/ConvexV1_Booster.sol";
-import {CurveV1AdapterStETH} from "integrations-v2/contracts/adapters/curve/CurveV1_StETH.sol";
+import {CurveV1AdapterStETH} from "integrations-v2/contracts/adapters/curve/CurveV1_stETH.sol";
 
 ConvexV1BaseRewardPoolAdapter constant steCRVRewardPool =
     ConvexV1BaseRewardPoolAdapter(0xeBE13b1874bB2913CB3F04d4231837867ff77999);

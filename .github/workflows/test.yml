@@ -22,6 +22,19 @@ jobs:
         with:
           version: nightly
 
+      - run: touch yarn.lock
+
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: "yarn"
+
+      - name: Install contracts distributed with npm
+        run: |
+          pushd lib/core-v2; yarn; popd
+          pushd lib/integrations-v2; yarn; popd
+
       - name: Run Forge build
         run: |
           forge --version
