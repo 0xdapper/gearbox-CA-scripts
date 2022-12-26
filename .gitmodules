@@ -6,3 +6,7 @@
 	path = lib/core-v2
 	url = https://github.com/gearbox-protocol/core-v2
 	branch = v1.7.1
+[submodule "lib/integrations-v2"]
+	path = lib/integrations-v2
+	url = https://github.com/gearbox-protocol/integrations-v2
+	branch = v1.6.0
